@@ -1,5 +1,5 @@
 # LHL_Final_Project
-Final Project for Lighthouse lab Data science Bootcamp
+This repo contains data and codes of my capstone project at<a href="https://www.lighthouselabs.ca/"> Lighthouse Labs</a> data science Bootcamp.
 
 ## Covid_19 Fake News Detection
 The widespread problem of fake news is very difficult to tackle in today’s digital world where there are thousands of information-sharing platforms through which fake news or misinformation may propagate. It has become a greater issue because of the advancements in AI which brings along artificial bots that may be used to create and spread fake news. The situation is dire because many people believe anything they read on the internet and the ones who are amateur or are new to digital technology may be easily fooled.
