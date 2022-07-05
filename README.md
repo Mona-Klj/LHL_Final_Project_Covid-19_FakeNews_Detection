@@ -14,5 +14,5 @@ In the first step, preprocessing is performed on the dataset by the NLP techniqu
 In this step, several state-of-the-art machine learning algorithms are trained to classify the COVID-19-related dataset. The Classifier algorithms (Lodistic Regression, Decision Tree, Randon Forst, Passive Aggressinve, Multinomial Naive Bayes, Gradient Boosting and SVM ) are then evaluated using various metrics in <a href="https://github.com/Mona-Klj/LHL_Final_Project/blob/main/covidnews_Modeling.ipynb"> covidnews_Modeling.ipynb </a>notebook. The results show that the Passive-Aggressive and SVM classifier outperforms the other classifiers with an accuracy of 98%. But I chose Passive_Agressive over SVM because of fewer false positives on Fake news and stability in all scores.
 Next, the Passive-Aggressive classifier algorithm is used to detect fake news items. This algorithm is called so because it is passive in the case of correct classification and is aggressive if there is a miscalculation. 
 
-### Deploying by Flask
+### Deploying by Flask  
 And in the last step, I deployed my model with a Flask web app. You can run <a href="https://github.com/Mona-Klj/LHL_Final_Project/blob/main/Fake_News_Det.py"> Fake_News_Det.py</a> in root directory with model.pkl to see the web app runnig.
