@@ -6,7 +6,7 @@ The widespread problem of fake news is very difficult to tackle in today’s dig
 Since its emergence in December 2019, there have been numerous posts and news regarding the COVID-19 pandemic on social media, traditional print, and electronic media. These sources have information from both trusted and non-trusted medical sources. Furthermore, the news from these media is spread rapidly. There have been instances where the situation has gone out of control because people acted without verifying the authenticity of the news.  
 Therefore, a model for detecting fake news from the news pool is essential. In this work, the dataset which is a fusion of news related to COVID-19 that has been sourced from data from several social media and news sources is used for classification. 
 
-### Data Preprocessing
+## Data Preprocessing
 The dataset which is used for this project is from https://www.sciencedirect.com/science/article/pii/S1568494621003161 that contain 22000 row of labelled tweet about covid-19 news.
 In the first step, preprocessing is performed on the dataset by the NLP techniques to remove unwanted text (removing stopwords, text stemming, removing punctuations), then splitting has carried out to extract the tokens from the raw text data. Later, feature engineering as vectorizing the words has performed by using the Tfidf vectorizer. 
 
