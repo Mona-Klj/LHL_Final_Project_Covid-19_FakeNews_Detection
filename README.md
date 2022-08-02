@@ -8,7 +8,7 @@ Therefore, a model for detecting fake news from the news pool is essential. In t
 
 ## Data Preprocessing
 The dataset which is used for this project is from https://www.sciencedirect.com/science/article/pii/S1568494621003161 that contain 22000 row of labelled tweet about covid-19 news.
-In the first step, preprocessing is performed on the dataset by the NLP techniques to remove unwanted text (removing stopwords, text stemming, removing punctuations), then splitting has carried out to extract the tokens from the raw text data. Later, feature engineering as vectorizing the words has performed by using the Tfidf vectorizer . 
+In the first step, preprocessing is performed on the dataset by the NLP techniques to remove unwanted text (removing stopwords, text stemming, removing punctuations), then splitting has carried out to extract the tokens from the raw text data. Later, feature engineering as vectorizing the words has performed by using the Tfidf vectorizer. 
 
 ## Modelling and Evaluating
 In this step, several state-of-the-art machine learning algorithms are trained to classify the COVID-19-related dataset. The Classifier algorithms (Lodistic Regression, Decision Tree, Randon Forst, Passive Aggressinve, Multinomial Naive Bayes, Gradient Boosting and SVM ) are then evaluated using various metrics in <a href="https://github.com/Mona-Klj/LHL_Final_Project/blob/main/covidnews_Modeling.ipynb"> covidnews_Modeling.ipynb </a>notebook. The results show that the Passive-Aggressive and SVM classifier outperforms the other classifiers with an accuracy of 98%. But I chose Passive_Agressive over SVM because of fewer false positives on Fake news and stability in all scores.
